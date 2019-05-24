@@ -11,7 +11,7 @@
 
   <dd>An API: /contact/search, search from CSV file  with given input from client.
 
-  One of First Name, Last Name, Email and Phone in csv file contains input string will be return clients.
+  One of First Name, Last Name, Email and Phone in csv file contains input string will be returned clients.
 
   APIs are structured in /server/routers/contact folder.
   </dd>
