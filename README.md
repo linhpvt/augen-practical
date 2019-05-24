@@ -1,3 +1,41 @@
+## Linh Pham Practical test
+
+<dl>
+  <dt>Repo</dt>
+  <dd> Clone from https://github.com/react-boilerplate/react-boilerplate and Integrate React Material-UI from https://material-ui.com/
+  </dd>
+  <dd>Using React latest version with hook features, Redux, Redux-Saga to build our client side application</dd>
+  
+  <dt>What have done</dt>
+  <dd>Admin page with multiple routes configuration, Dashboard and Contact List pages</dd>
+
+  <dd>An API: /contact/search, search from CSV file  with given input from client.
+
+  One of First Name, Last Name, Email and Phone in csv file contains input string will be return clients.
+
+  APIs are structured in /server/routers/contact folder.
+  </dd>
+
+  <dd>A container page called ContactList with path /app/containers/ContactList
+  </dd>
+  
+
+
+
+  <dt>Not completed yet</dt>
+  <dd>Auto-search with a given timeout after the last time of user inputing.</dd>
+  <dd>Paging functionality, for now, at the time of loading page, get all contact from CSV file; client input the search criteria and hit Search icon next to the input text box to search</dd>
+
+  
+
+
+
+
+
+
+
+
+
 <img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
 
 <br />
