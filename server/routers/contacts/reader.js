@@ -47,12 +47,14 @@ const readFile = (fileName) => new Promise(function(resolve) {
 // search contact function
 const search = async (fileName, term) => {
   const dataFromFile = await readFile(fileName);
+  let { code, data } = dataFromFile;
 
   // search all
   if (isEmpty(term)) {
-    return dataFromFile;
+    // default sort by firstName
+    data = sortBy(data, ['firstName']);
+    return { code, data };
   }
-  let { code, data } = dataFromFile;
 
   // read data from file failed
   if (code !== 0) {
