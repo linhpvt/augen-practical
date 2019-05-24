@@ -68,7 +68,7 @@ const search = async (fileName, term) => {
   );
 
   // default sort by firstName
-  data = sortBy(data, [(contact) => { return contact.firstName; }]);
+  data = sortBy(data, ['firstName']);
   return { code, data };
 }
 
