@@ -1,12 +1,12 @@
 ## Linh Pham practical test - START
 
 <dl>
-  <dt>Repo</dt>
+  <dt>Repo information</dt>
   <dd> Clone from https://github.com/react-boilerplate/react-boilerplate and Integrate React Material-UI from https://material-ui.com/
   </dd>
   <dd>Using React version 16.8.6 with hook features, Redux, Redux-Saga to build our client side application</dd>
   
-  <dt>What have done</dt>
+  <dt>What i have done</dt>
   <dd>Admin portal with multiple routes configuration, Dashboard and Contact List pages</dd>
 
   <dd>An API: /contact/search, search from CSV file  with given input from client.
