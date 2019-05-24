@@ -24,6 +24,7 @@
   <dd>Paging functionality, for now, at the time of loading page, get all contact from CSV file; client input the search criteria and hit Search icon next to the input text box to search</dd>
   <dd>Searching once client input criteria and then hit ENTER</dd>
   <dd>Show Spiner while making search request</dd>
+  <dd>ASC/DESC when client click header column</dd>
 
   ## Linh Pham practical test - END
 
