@@ -30,6 +30,9 @@ const switchRoutes = (
           />
         );
     })}
+  <Route exact path="/" render={() => (
+    <Redirect to="/contact-list"/>
+  )}/>
   </Switch>
 );
 

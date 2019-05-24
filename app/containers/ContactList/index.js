@@ -43,6 +43,7 @@ export function ContactList({
     // load contact list at first loading page
     if (isEmpty(contactList)) onLoadContactList();
   }, []);
+
   const [name, changeName] = useState('');
   return (
     <article>
@@ -71,10 +72,7 @@ export function ContactList({
         <GridItem xs={12} sm={12} md={12}>
           <Card>
             <CardHeader color="primary">
-              <h4>Contact List</h4>
-              <p>
-                Contact List From CSV file
-              </p>
+              <h4>Contact List From CSV File</h4>
             </CardHeader>
             <CardBody>
               <CustomTable
@@ -104,7 +102,7 @@ const makeSelectRepos = () =>
   );
 
 const mapStateToProps = createStructuredSelector({
-  constactList: makeSelectRepos(),
+  contactList: makeSelectRepos(),
 });
 
 export function mapDispatchToProps(dispatch) {

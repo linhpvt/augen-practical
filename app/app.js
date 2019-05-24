@@ -52,11 +52,6 @@ const hist = createBrowserHistory();
 const render = (messages) => {
   ReactDOM.render(
     <Provider store={store}>
-      {/* <LanguageProvider messages={messages}>
-        <ConnectedRouter history={history}>
-          <App />
-        </ConnectedRouter>
-      </LanguageProvider> */}
       <LanguageProvider messages={messages}>
         <ConnectedRouter history={history}>
           <Router history={hist}>

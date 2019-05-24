@@ -15,7 +15,7 @@
 
 import { ContactListTypes } from './constants';
 
-export function contactList(term) {
+export function contactList(term = '') {
   return {
     type: ContactListTypes.CONTACTS_SEARCH,
     term
@@ -31,7 +31,7 @@ export function contactList(term) {
  */
 export function contactListLoaded(contactList) {
   return {
-    type: ContactListTypes.LOAD_USERS_SUCCESS,
+    type: ContactListTypes.LOAD_CONTACTS_SUCCESS,
     contactList
   };
 }

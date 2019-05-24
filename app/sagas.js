@@ -1,13 +1,13 @@
 import { takeLatest, all } from 'redux-saga/effects';
 
 // list types
-import { ListUsersTypes } from './containers/ListUsers/constants';
-// old coding style, need to be refactor as ListUsersTypes
+import { ContactListTypes } from './containers/ContactList/constants';
+// old coding style, need to be refactor as ContactListTypes
 import { LOAD_REPOS } from './containers/App/constants';
 
 // saga function
 import { getRepos } from './containers/HomePage/saga';
-import { getListUsers } from './containers/ListUsers/saga';
+import { contactListSearch } from './containers/ContactList/saga';
 
 export default function* root() {
   yield all([
@@ -15,6 +15,6 @@ export default function* root() {
     takeLatest(LOAD_REPOS, getRepos),
 
     // get list users
-    takeLatest(ListUsersTypes.LIST_USERS, getListUsers),
+    takeLatest(ContactListTypes.CONTACTS_SEARCH, contactListSearch),
   ])
 }

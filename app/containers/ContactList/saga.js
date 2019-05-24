@@ -6,7 +6,7 @@ import request from 'utils/request';
 /**
  * Github repos request/response handler
  */
-export function* contactListSearch(term = '') {
+export function* contactListSearch({ term = ''}) {
   const requestURL = `/contact/search?term=${term}`;
   try {
     // our request helper (see 'utils/request')
