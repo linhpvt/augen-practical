@@ -1,12 +1,12 @@
 ## Linh Pham practical test - START
 
 <dl>
-  <dt>Repo</dt>
+  <dt>Repo information</dt>
   <dd> Clone from https://github.com/react-boilerplate/react-boilerplate and Integrate React Material-UI from https://material-ui.com/
   </dd>
   <dd>Using React version 16.8.6 with hook features, Redux, Redux-Saga to build our client side application</dd>
   
-  <dt>What have done</dt>
+  <dt>What i have done</dt>
   <dd>Admin portal with multiple routes configuration, Dashboard and Contact List pages</dd>
 
   <dd>An API: /contact/search, search from CSV file  with given input from client.
@@ -20,8 +20,11 @@
   </dd>
   
   <dt>Not completed yet</dt>
-  <dd>Auto-search with a given timeout after the last time of user inputing.</dd>
+  <dd>Auto-search with a given timeout since the last time of user inputing.</dd>
   <dd>Paging functionality, for now, at the time of loading page, get all contact from CSV file; client input the search criteria and hit Search icon next to the input text box to search</dd>
+  <dd>Searching once client input criteria and then hit ENTER</dd>
+  <dd>Show Spiner while making search request</dd>
+  <dd>sort ASC/DESC when client click header column</dd>
 
   ## Linh Pham practical test - END
 
